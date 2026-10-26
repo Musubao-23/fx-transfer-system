@@ -1,0 +1,5 @@
+# Only the public folder may be opened from the web.
+# Everything else (.env, config, src, vendor, database) is blocked.
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/fx-transfer-system/public/
+RewriteRule ^ - [F]

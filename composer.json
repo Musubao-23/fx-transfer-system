@@ -1,0 +1,19 @@
+{
+    "name": "chart/fx-transfer-system",
+    "authors": [
+        {
+            "name": "Kasereka Musubao",
+            "email": "kasereka.musubao@stud.umu.ac.ug"
+        }
+    ],
+   "require": {
+    "vlucas/phpdotenv": "^5.7",
+        "dompdf/dompdf": "^3.1",
+        "phpmailer/phpmailer": "^7.1"
+},
+"autoload": {
+    "psr-4": {
+        "App\\": "src/"
+    }
+}
+}

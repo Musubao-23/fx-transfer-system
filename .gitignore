@@ -1,0 +1,4 @@
+.env
+vendor/
+public/receipts/*.pdf
+public/receipts/*.txt
